@@ -1,7 +1,8 @@
+from com.generic_lib.initilization import *
 from com.POM.methods.home_method import *
 from com.POM.methods.sign_in_method import *
 import logging
-class SignIn(Initilization, ExcelSheet):
+class SignIn(Initilization):
 
     testCaseId = "SignIn_01"
     sheetName = "SignInData"

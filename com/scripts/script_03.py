@@ -1,3 +1,4 @@
+from com.generic_lib.initilization import *
 from com.POM.methods.home_method import *
 from com.POM.methods.men_method import *
 from com.POM.methods.sports_method import *
