@@ -3,6 +3,9 @@ from com.POM.locators.sign_in_loc import *
 import time
 import logging
 import sys, traceback
+from datetime import datetime
+from selenium import webdriver
+import os
 
 class BasePage(object):
 
@@ -32,14 +35,17 @@ class SignInPage(BasePage,ExcelSheet):
         cancelBtn.click()
         time.sleep(2)
 
-    def verifyErrorMsg(self):
+    def verifyErrorMsg(self, test_method_name):
         try:
             actualMsg = self.driver.find_element(*SignInLoc.ERROR_TEXT).text
             assert actualMsg == 'Incorrect username or Password.'
             logging.info('Error message verified.')
         except:
             logging.error('Error msg not verified, so Assertion failed.')
-            self.driver.save_screenshot('D:\CBT_Automation\Python\Workspace_Python\Report\Framework_Jabong\Screenshots\screenshot1.png')
+            now = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+            self.driver.save_screenshot("D:\CBT_Automation\Python\Workspace_Python\Report\Framework_Jabong\Screenshots" + test_method_name + "-" + now + ".png")
+            #self.driver.save_screenshot(os.getcwd() + '/screenshots/' + test_method_name + "-" + now + ".png")
+            print(os.getcwd())
             traceback._some_str("there is some exception.")
 
 

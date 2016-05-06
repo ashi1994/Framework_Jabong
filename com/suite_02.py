@@ -1,4 +1,4 @@
-from com.scripts.script_01 import *
+from com.scripts.script_02 import *
 import HTMLTestRunner
 
 
@@ -7,7 +7,7 @@ class Suite(unittest.TestCase):
 
     def test_main(self):
         logging.info('Inside test suite')
-        self.suite = unittest.TestSuite([unittest.defaultTestLoader.loadTestsFromTestCase(Men)])
+        self.suite = unittest.TestSuite([unittest.defaultTestLoader.loadTestsFromTestCase(SignIn)])
 
         #unittest.TextTestRunner(verbosity=2).run(self.suite)
 

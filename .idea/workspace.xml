@@ -3,12 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="fbc46043-24fd-4ad9-92ab-7b293e08d69a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/POM/methods/home_method.py" afterPath="$PROJECT_DIR$/com/POM/methods/home_method.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/POM/methods/men_method.py" afterPath="$PROJECT_DIR$/com/POM/methods/men_method.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/scripts/script_01.py" afterPath="$PROJECT_DIR$/com/scripts/script_01.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/POM/methods/sign_in_method.py" afterPath="$PROJECT_DIR$/com/POM/methods/sign_in_method.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/generic_lib/initilization.py" afterPath="$PROJECT_DIR$/com/generic_lib/initilization.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/scripts/script_02.py" afterPath="$PROJECT_DIR$/com/scripts/script_02.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/scripts/script_03.py" afterPath="$PROJECT_DIR$/com/scripts/script_03.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/suite.py" afterPath="$PROJECT_DIR$/com/suite.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/suite_02.py" afterPath="$PROJECT_DIR$/com/suite_02.py" />
     </list>
     <ignored path="Framework_Jabong.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,11 +27,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="suite.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/suite.py">
+      <file leaf-file-name="initilization.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/generic_lib/initilization.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+            <state relative-caret-position="176">
+              <caret line="41" column="51" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="51" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="suite_02.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/suite_02.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="92" selection-start-line="9" selection-start-column="92" selection-end-line="9" selection-end-column="92" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -41,13 +51,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="suite_02.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/com/suite_02.py">
+      <file leaf-file-name="script_02.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/scripts/script_02.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            <state relative-caret-position="153">
+              <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sign_in_method.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/com/POM/methods/sign_in_method.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,17 +101,17 @@
         <option value="$PROJECT_DIR$/com/POM/locators/sports_loc.py" />
         <option value="$PROJECT_DIR$/com/POM/locators/sign_in_loc.py" />
         <option value="$PROJECT_DIR$/com/POM/methods/sports_method.py" />
-        <option value="$PROJECT_DIR$/com/generic_lib/initilization.py" />
         <option value="$PROJECT_DIR$/com/generic_lib/excel_sheet.py" />
-        <option value="$PROJECT_DIR$/com/POM/methods/sign_in_method.py" />
         <option value="$PROJECT_DIR$/com/POM/methods/home_method.py" />
-        <option value="$PROJECT_DIR$/com/scripts/script_02.py" />
         <option value="$PROJECT_DIR$/com/POM/methods/men_method.py" />
         <option value="$PROJECT_DIR$/com/scripts/script_01.py" />
         <option value="$PROJECT_DIR$/com/scripts/script_03.py" />
         <option value="$PROJECT_DIR$/com/suite.py" />
         <option value="$PROJECT_DIR$/../../Python35/Lib/site-packages/HTMLTestRunner.py" />
         <option value="$PROJECT_DIR$/com/suite_02.py" />
+        <option value="$PROJECT_DIR$/com/generic_lib/initilization.py" />
+        <option value="$PROJECT_DIR$/com/scripts/script_02.py" />
+        <option value="$PROJECT_DIR$/com/POM/methods/sign_in_method.py" />
       </list>
     </option>
   </component>
@@ -160,6 +180,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Framework_Jabong" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Framework_Jabong" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Framework_Jabong" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Framework_Jabong" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generic_lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -175,7 +231,7 @@
       <recent name="D:\CBT_Automation\Python\Workspace_Python\Framework_Jabong\com\generic_lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in suite_02">
+  <component name="RunManager" selected="Python tests.Unittests in script_02">
     <configuration default="false" name="Unittests in script_01" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -406,10 +462,10 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in suite_02" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in suite" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in script_01" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in script_02" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in script_02" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in suite_02" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in suite" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in script_01" />
       </list>
     </recent_temporary>
   </component>
@@ -427,47 +483,47 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_suite_02 - 2016.05.06 at 13h 40m 20s.xml">
+    <history-entry file="Unittests_in_script_02 - 2016.05.06 at 17h 07m 55s.xml">
+      <configuration name="Unittests in script_02" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_script_02 - 2016.05.06 at 17h 14m 05s.xml">
+      <configuration name="Unittests in script_02" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_script_02 - 2016.05.06 at 17h 18m 12s.xml">
+      <configuration name="Unittests in script_02" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_script_02 - 2016.05.06 at 17h 19m 08s.xml">
+      <configuration name="Unittests in script_02" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_script_02 - 2016.05.06 at 17h 21m 19s.xml">
+      <configuration name="Unittests in script_02" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_script_02 - 2016.05.06 at 17h 23m 14s.xml">
+      <configuration name="Unittests in script_02" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_script_02 - 2016.05.06 at 17h 25m 49s.xml">
+      <configuration name="Unittests in script_02" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_suite_02 - 2016.05.06 at 16h 58m 39s.xml">
       <configuration name="Unittests in suite_02" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_suite_02 - 2016.05.06 at 13h 55m 33s.xml">
+    <history-entry file="Unittests_in_suite_02 - 2016.05.06 at 17h 00m 32s.xml">
       <configuration name="Unittests in suite_02" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_suite_02 - 2016.05.06 at 15h 34m 11s.xml">
-      <configuration name="Unittests in suite_02" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_suite_02 - 2016.05.06 at 15h 44m 47s.xml">
-      <configuration name="Unittests in suite_02" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_suite_02 - 2016.05.06 at 15h 47m 11s.xml">
-      <configuration name="Unittests in suite_02" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_suite_02 - 2016.05.06 at 15h 52m 58s.xml">
-      <configuration name="Unittests in suite_02" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_suite_02 - 2016.05.06 at 15h 56m 56s.xml">
-      <configuration name="Unittests in suite_02" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_suite_02 - 2016.05.06 at 15h 58m 56s.xml">
-      <configuration name="Unittests in suite_02" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_suite_02 - 2016.05.06 at 16h 00m 48s.xml">
-      <configuration name="Unittests in suite_02" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_suite_02 - 2016.05.06 at 16h 03m 44s.xml">
+    <history-entry file="Unittests_in_suite_02 - 2016.05.06 at 17h 06m 51s.xml">
       <configuration name="Unittests in suite_02" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496329" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -491,7 +547,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -500,6 +556,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="36" column="76" selection-start-line="36" selection-start-column="76" selection-end-line="36" selection-end-column="76" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -507,6 +566,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -514,6 +574,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#11#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -545,6 +608,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -597,17 +663,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/POM/methods/sign_in_method.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com/generic_lib/excel_sheet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#11#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -622,20 +684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/scripts/script_02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/generic_lib/initilization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -667,18 +715,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Python35/Lib/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="572" column="0" selection-start-line="572" selection-start-column="0" selection-end-line="572" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../Python35/Lib/datetime.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -739,12 +780,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../Python35/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6358">
+          <caret line="387" column="13" selection-start-line="387" selection-start-column="13" selection-end-line="387" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/scripts/script_02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/com/suite_02.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        <state relative-caret-position="153">
+          <caret line="9" column="92" selection-start-line="9" selection-start-column="92" selection-end-line="9" selection-end-column="92" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/generic_lib/initilization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="41" column="51" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/POM/methods/sign_in_method.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>

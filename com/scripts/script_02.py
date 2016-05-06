@@ -8,7 +8,7 @@ class SignIn(Initilization):
     sheetName = "SignInData"
 
     def test_sign_in(self):
-
+        test_method_name = self._testMethodName
         home_page = HomePage(self.driver)
         sign_in_page = SignInPage(self.driver)
 
@@ -16,7 +16,7 @@ class SignIn(Initilization):
         sign_in_page.enter_email_id(self.testCaseId, self.sheetName)
         sign_in_page.enterPassword(self.testCaseId, self.sheetName)
         sign_in_page.clickSignInBtn()
-        sign_in_page.verifyErrorMsg()
+        sign_in_page.verifyErrorMsg(test_method_name)
         sign_in_page.clickCancelBtn()
         logging.info("Inside SignIn script.")
 
