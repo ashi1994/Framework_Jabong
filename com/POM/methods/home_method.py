@@ -1,5 +1,3 @@
-from com.generic_lib.initilization import *
-from com.generic_lib.excel_sheet import *
 from selenium.webdriver.common.action_chains import ActionChains
 from com.POM.locators.home_loc import *
 import time

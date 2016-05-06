@@ -3,6 +3,9 @@ import time
 from selenium import webdriver
 import Config
 import logging
+from datetime import datetime
+import sys
+import os
 
 class Initilization(unittest.TestCase):
 
@@ -35,6 +38,11 @@ class Initilization(unittest.TestCase):
 
     def tearDown(self):
         logging.info("Inside TearDown Method.")
+        if sys.exc_info()[0]:
+            test_method_name = self._testMethodName
+            now = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+            self.driver.save_screenshot("D:\CBT_Automation\Python\Workspace_Python\Report\Framework_Jabong\Screenshots" + test_method_name + "-" + now + ".png")
+            print("Screenshot done.")
         self.driver.quit()
 
 if __name__ == "__main__":
