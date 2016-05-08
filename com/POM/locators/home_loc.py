@@ -4,7 +4,7 @@ class HomeLoc(object):
     DOWNLOAD_APP_LINK = (By.XPATH, "//a[text()='download app']]")
     HELP_LINK = (By.XPATH, "//a[text()='help']")
     TRACK_ORDER_LINK = (By.XPATH, "//a[text()='Track Order']")
-    SIGNIN_LINK = (By.XPATH,"//a[text()='Sign In']")
+    SIGNIN_LINK = (By.XPATH,"//a[text()='Sign in']")
     SIGNUP_LINK = (By.XPATH, "//a[text()='Signup']")
 
     # Navigation Bar Locators.

@@ -36,17 +36,17 @@ class SignInPage(BasePage,ExcelSheet):
         time.sleep(2)
 
     def verifyErrorMsg(self, test_method_name):
-        try:
+        # try:
             actualMsg = self.driver.find_element(*SignInLoc.ERROR_TEXT).text
-            assert actualMsg == 'Incorrect username or Password.'
+            assert actualMsg == 'Incorrect username or password.'
             logging.info('Error message verified.')
-        except:
-            logging.error('Error msg not verified, so Assertion failed.')
-            now = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-            self.driver.save_screenshot("D:\CBT_Automation\Python\Workspace_Python\Report\Framework_Jabong\Screenshots" + test_method_name + "-" + now + ".png")
-            #self.driver.save_screenshot(os.getcwd() + '/screenshots/' + test_method_name + "-" + now + ".png")
-            print(os.getcwd())
-            traceback._some_str("there is some exception.")
+        # except:
+        #     logging.error('Error msg not verified, so Assertion failed.')
+        #     now = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+        #     self.driver.save_screenshot("D:\CBT_Automation\Python\Workspace_Python\Report\Framework_Jabong\Screenshots" + test_method_name + "-" + now + ".png")
+        #     #self.driver.save_screenshot(os.getcwd() + '/screenshots/' + test_method_name + "-" + now + ".png")
+        #     print(os.getcwd())
+        #     traceback._some_str("there is some exception.")
 
 
 
