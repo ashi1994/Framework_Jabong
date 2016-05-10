@@ -9,8 +9,14 @@ class Suite(unittest.TestCase):
         logging.info('Inside test suite')
         self.suite = unittest.TestSuite([unittest.defaultTestLoader.loadTestsFromTestCase(SignIn)])
 
+        #unittest.TextTestRunner(verbosity=2).run(self.suite)
+
         outfile = open("D:\CBT_Automation\Python\Workspace_Python_2\Framework_Jabong\Report\HTML_Report\TestReport.html", "w")
-        runner = HTMLTestRunner.HTMLTestRunner(stream = outfile, title = 'Execution Report', description = 'Suite_02 Run')
+        runner = HTMLTestRunner.HTMLTestRunner(
+            stream = outfile,
+            title = 'Execution Report',
+            description = 'Suite Run'
+        )
         runner.run(self.suite)
 
 # import unittest

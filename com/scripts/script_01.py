@@ -8,10 +8,10 @@ import logging
 class Men(Initilization):
     def test_buy_blazers(self):
 
-        test_method_name = self._testMethodName
-
-        pjsdriver = webdriver.PhantomJS("phantomjs")
-        self.driver = EventFiringWebDriver(pjsdriver, ScreenshotListener(test_method_name))
+        # test_method_name = self._testMethodName
+        #
+        # pjsdriver = webdriver.PhantomJS("phantomjs")
+        # self.driver = EventFiringWebDriver(pjsdriver, ScreenshotListener(test_method_name))
 
         # **********Instiantiation should be here, after listener invoking.********
         home_page = HomePage(self.driver)
@@ -23,10 +23,10 @@ class Men(Initilization):
 
 class Sports(Initilization):
     def test_buy_jersey(self):
-        test_method_name = self._testMethodName
+        # test_method_name = self._testMethodName
 
-        pjsdriver = webdriver.PhantomJS("phantomjs")
-        self.driver = EventFiringWebDriver(pjsdriver, ScreenshotListener(test_method_name))
+        # pjsdriver = webdriver.PhantomJS("phantomjs")
+        # self.driver = EventFiringWebDriver(pjsdriver, ScreenshotListener(test_method_name))
 
         # **********Instiantiation should be here, after listener invoking.********
         home_page = HomePage(self.driver)

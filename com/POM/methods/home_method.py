@@ -1,6 +1,7 @@
 from selenium.webdriver.common.action_chains import ActionChains
 from com.POM.locators.home_loc import *
 import time
+from com.generic_lib.listener import *
 import logging
 
 class BasePage(object):
@@ -23,4 +24,8 @@ class HomePage(BasePage):
     def navigate_signin_page(self):
         element = self.driver.find_element(*HomeLoc.SIGNIN_LINK)
         element.click()
+        time.sleep(2)
 
+    def navigate_quick_list_page(self):
+        element = self.driver.find_element(*HomeLoc.LIKE_LINK)
+        element.click()

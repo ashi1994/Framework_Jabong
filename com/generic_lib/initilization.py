@@ -36,5 +36,5 @@ class Initilization(unittest.TestCase):
         logging.info("Inside TearDown Method.")
         self.driver.quit()
 
-if __name__ == "__main__":
-    unittest.main()
+# if __name__ == "__main__":
+#     unittest.main()

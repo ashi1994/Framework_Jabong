@@ -13,6 +13,3 @@ class Clothing(BasePage):
         element = self.driver.find_element(*MenLoc.SUITE_BLAZER)
         element.click()
         time.sleep(2)
-
-
-
