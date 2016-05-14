@@ -30,11 +30,15 @@ class Initilization(unittest.TestCase):
         logging.info('Jabong Application Launched.')
         self.driver.maximize_window()
         time.sleep(3)
-        self.driver.implicitly_wait(20)
+        self.driver.implicitly_wait(5)
+
 
     def tearDown(self):
         logging.info("Inside TearDown Method.")
         self.driver.quit()
+
+
+
 
 # if __name__ == "__main__":
 #     unittest.main()

@@ -1,0 +1,60 @@
+INFO:root:Firefox browser launched.
+INFO:root:Inside Setup method
+INFO:root:Jabong Application Launched.
+INFO:root:Inside TearDown Method.
+INFO:root:Firefox browser launched.
+INFO:root:Inside Setup method
+INFO:root:Jabong Application Launched.
+ERROR:root:Exception raised in method - test_sign_in
+INFO:root:Inside TearDown Method.
+INFO:root:Firefox browser launched.
+INFO:root:Inside Setup method
+INFO:root:Jabong Application Launched.
+INFO:root:Now in Kids Script
+INFO:root:Inside TearDown Method.
+INFO:root:Firefox browser launched.
+INFO:root:Inside Setup method
+INFO:root:Jabong Application Launched.
+INFO:root:Now in Men Script
+INFO:root:Inside TearDown Method.
+INFO:root:Firefox browser launched.
+INFO:root:Inside Setup method
+INFO:root:Jabong Application Launched.
+ERROR:root:Exception raised in method - test_sign_in
+INFO:root:Inside TearDown Method.
+INFO:root:Firefox browser launched.
+INFO:root:Inside Setup method
+INFO:root:Jabong Application Launched.
+INFO:root:Now in Sport Script
+INFO:root:Inside TearDown Method.
+INFO:root:Inside test suite
+INFO:root:Firefox browser launched.
+INFO:root:Inside Setup method
+INFO:root:Jabong Application Launched.
+INFO:root:Now in Men Script
+INFO:root:Inside TearDown Method.
+INFO:root:Firefox browser launched.
+INFO:root:Inside Setup method
+INFO:root:Jabong Application Launched.
+INFO:root:Now in Sport Script
+INFO:root:Inside TearDown Method.
+INFO:root:Firefox browser launched.
+INFO:root:Inside Setup method
+INFO:root:Jabong Application Launched.
+INFO:root:Now in Women Script
+INFO:root:Inside TearDown Method.
+INFO:root:Firefox browser launched.
+INFO:root:Inside Setup method
+INFO:root:Jabong Application Launched.
+INFO:root:Now in Kids Script
+INFO:root:Inside TearDown Method.
+INFO:root:Firefox browser launched.
+INFO:root:Inside Setup method
+INFO:root:Jabong Application Launched.
+ERROR:root:Exception raised in method - test_sign_in
+INFO:root:Inside TearDown Method.
+INFO:root:Firefox browser launched.
+INFO:root:Inside Setup method
+INFO:root:Jabong Application Launched.
+INFO:root:Now in Women Script
+INFO:root:Inside TearDown Method.

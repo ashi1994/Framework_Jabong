@@ -9,7 +9,7 @@ class Men(Initilization):
     def test_buy_blazers(self):
 
         # test_method_name = self._testMethodName
-        #
+
         # pjsdriver = webdriver.PhantomJS("phantomjs")
         # self.driver = EventFiringWebDriver(pjsdriver, ScreenshotListener(test_method_name))
 
@@ -35,6 +35,7 @@ class Sports(Initilization):
 
         home_page.navigate_sports()
         sport.buy_jerseys()
+
 
 
 
