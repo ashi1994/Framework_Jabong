@@ -1,11 +1,18 @@
 from com.generic_lib.initilization import *
 from com.POM.methods.home_method import *
+
 from com.POM.methods.sports_method import *
 from selenium.common.exceptions import *
 import traceback
 
+from com.POM.methods.sign_in_method import *
+import logging
+#from com.generic_lib.listener import *
+
+
 class Script02_Sports(Initilization):
     testCaseId = "TestCase_02"
+
 
     def test_02_buy_jersey(self):
         global testCaseId
@@ -27,3 +34,7 @@ class Script02_Sports(Initilization):
             traceback.print_exc()
             logging.info(testCaseId + "=" + "Fail")
             raise WebDriverException
+
+# if __name__ == "__main__":
+#     unittest.main()
+

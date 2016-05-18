@@ -1,6 +1,9 @@
 import xlrd
 import xlsxwriter
 from com.generic_lib.initilization import *
+
+
+
 import sys, traceback
 import os
 
@@ -21,6 +24,7 @@ class ExcelSheet():
 
         #except:
             traceback.print_exception("there is some exception.")
+
 
 
     def write_data(self):
@@ -50,3 +54,9 @@ class ExcelSheet():
                     # row +=1
                     # col+=1
             workbook.close()
+
+    def write_data(self, sheetName, testCaseId, status):
+        wb = xlsxwriter.Workbook("D:\CBT_Automation\Python\Workspace_Python_2\Framework_Jabong\WriteData.xlsx")
+        sheet = wb.add_worksheet()
+        sheet.write('D5', 'Hi Ashish')
+

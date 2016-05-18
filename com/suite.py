@@ -10,7 +10,6 @@ class Suite(unittest.TestCase):
         logging.info('Inside test suite')
         self.suite = unittest.TestSuite([unittest.defaultTestLoader.loadTestsFromTestCase(Script03_Men),
                                          unittest.defaultTestLoader.loadTestsFromTestCase(Script02_Sports),
-                                         unittest.defaultTestLoader.loadTestsFromTestCase(Women),
                                          unittest.defaultTestLoader.loadTestsFromTestCase(Script02_Sports),
                                          unittest.defaultTestLoader.loadTestsFromTestCase(Script01_SignIn)])
 

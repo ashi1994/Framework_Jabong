@@ -189,9 +189,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>Execution Report</h1>
-<p class='attribute'><strong>Start Time:</strong> 2016-05-18 12:53:06</p>
-<p class='attribute'><strong>Duration:</strong> 0:02:29.768000</p>
-<p class='attribute'><strong>Status:</strong> Pass 1 Error 2</p>
+<p class='attribute'><strong>Start Time:</strong> 2016-05-13 18:08:50</p>
+<p class='attribute'><strong>Duration:</strong> 0:02:08.357000</p>
+<p class='attribute'><strong>Status:</strong> Pass 5</p>
 
 <p class='description'>Suite Run</p>
 </div>
@@ -221,114 +221,36 @@ function showOutput(id, name) {
     <td>View</td>
 </tr>
 
-<tr class='errorClass'>
-    <td>com.scripts.script_03.Script03_Men</td>
+<tr class='passClass'>
+    <td>com.scripts.script_01.Men</td>
+    <td>1</td>
     <td>1</td>
     <td>0</td>
     <td>0</td>
-    <td>1</td>
     <td><a href="javascript:showClassDetail('c1',1)">Detail</a></td>
 </tr>
 
-<tr id='ft1.1' class='none'>
-    <td class='errorCase'><div class='testcase'>test_buy_blazers</div></td>
-    <td colspan='5' align='center'>
-
-    <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
-        error</a>
-
-    <div id='div_ft1.1' class="popup_window">
-        <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
-           [x]</a>
-        </div>
-        <pre>
-        
-ft1.1: Traceback (most recent call last):
-  File "D:\CBT_Automation\Python\Workspace_Python_2\Framework_Jabong\com\scripts\script_03.py", line 23, in test_buy_blazers
-    clothing.select_size()
-  File "D:\CBT_Automation\Python\Workspace_Python_2\Framework_Jabong\com\POM\methods\men_method.py", line 34, in select_size
-    element = self.driver.find_element(*MenLoc.SELECT_SIZE)
-  File "D:\CBT_Automation\Python\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 744, in find_element
-    {'using': by, 'value': value})['value']
-  File "D:\CBT_Automation\Python\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 233, in execute
-    self.error_handler.check_response(response)
-  File "D:\CBT_Automation\Python\Python27\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 194, in check_response
-    raise exception_class(message, screen, stacktrace)
-NoSuchElementException: Message: Unable to locate element: {"method":"xpath","selector":"//ul[@class='options']//li[@class='first popover-options']"}
-Stacktrace:
-    at FirefoxDriver.prototype.findElementInternal_ (file:///c:/users/admini~1/appdata/local/temp/tmpwmxjgy/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
-    at fxdriver.Timer.prototype.setTimeout/&lt;.notify (file:///c:/users/admini~1/appdata/local/temp/tmpwmxjgy/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
-Traceback (most recent call last):
-  File "D:\CBT_Automation\Python\Workspace_Python_2\Framework_Jabong\com\scripts\script_03.py", line 33, in test_buy_blazers
-    raise WebDriverException
-WebDriverException: Message: None
-
-
-
-        </pre>
-    </div>
-    <!--css div popup end-->
-
-    </td>
-</tr>
-
-<tr class='errorClass'>
-    <td>com.scripts.script_02.Script02_Sports</td>
-    <td>1</td>
-    <td>0</td>
-    <td>0</td>
-    <td>1</td>
-    <td><a href="javascript:showClassDetail('c2',1)">Detail</a></td>
-</tr>
-
-<tr id='ft2.1' class='none'>
-    <td class='errorCase'><div class='testcase'>test_buy_jersey</div></td>
-    <td colspan='5' align='center'>
-
-    <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft2.1')" >
-        error</a>
-
-    <div id='div_ft2.1' class="popup_window">
-        <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft2.1').style.display = 'none' " >
-           [x]</a>
-        </div>
-        <pre>
-        
-ft2.1: Traceback (most recent call last):
-  File "D:\CBT_Automation\Python\Workspace_Python_2\Framework_Jabong\com\scripts\script_02.py", line 18, in test_buy_jersey
-    sport.buy_jerseys()
-  File "D:\CBT_Automation\Python\Workspace_Python_2\Framework_Jabong\com\POM\methods\sports_method.py", line 13, in buy_jerseys
-    element = self.driver.find_element(*SportsLoc.JERSEYS)
-  File "D:\CBT_Automation\Python\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 744, in find_element
-    {'using': by, 'value': value})['value']
-  File "D:\CBT_Automation\Python\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 233, in execute
-    self.error_handler.check_response(response)
-  File "D:\CBT_Automation\Python\Python27\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 194, in check_response
-    raise exception_class(message, screen, stacktrace)
-NoSuchElementException: Message: Unable to locate element: {"method":"xpath","selector":"//div[@class='dropdown-container row']//a[text()='jerseys']"}
-Stacktrace:
-    at FirefoxDriver.prototype.findElementInternal_ (file:///c:/users/admini~1/appdata/local/temp/tmpeqh51m/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
-    at fxdriver.Timer.prototype.setTimeout/&lt;.notify (file:///c:/users/admini~1/appdata/local/temp/tmpeqh51m/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
-Traceback (most recent call last):
-  File "D:\CBT_Automation\Python\Workspace_Python_2\Framework_Jabong\com\scripts\script_02.py", line 26, in test_buy_jersey
-    raise WebDriverException
-WebDriverException: Message: None
-
-
-
-        </pre>
-    </div>
-    <!--css div popup end-->
-
-    </td>
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_buy_blazers</div></td>
+    <td colspan='5' align='center'>pass</td>
 </tr>
 
 <tr class='passClass'>
-    <td>com.scripts.script_01.Script01_SignIn</td>
+    <td>com.scripts.script_01.Sports</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c2',1)">Detail</a></td>
+</tr>
+
+<tr id='pt2.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_buy_jersey</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr class='passClass'>
+    <td>com.scripts.script_03.Women</td>
     <td>1</td>
     <td>1</td>
     <td>0</td>
@@ -337,16 +259,44 @@ WebDriverException: Message: None
 </tr>
 
 <tr id='pt3.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test01_sign_in</div></td>
+    <td class='none'><div class='testcase'>test_buy_blazers</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr class='passClass'>
+    <td>com.scripts.script_03.Kids</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c4',1)">Detail</a></td>
+</tr>
+
+<tr id='pt4.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_buy_jersey</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr class='passClass'>
+    <td>com.scripts.script_02.SignIn</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c5',1)">Detail</a></td>
+</tr>
+
+<tr id='pt5.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_sign_in</div></td>
     <td colspan='5' align='center'>pass</td>
 </tr>
 
 <tr id='total_row'>
     <td>Total</td>
-    <td>3</td>
-    <td>1</td>
+    <td>5</td>
+    <td>5</td>
     <td>0</td>
-    <td>2</td>
+    <td>0</td>
     <td>&nbsp;</td>
 </tr>
 </table>

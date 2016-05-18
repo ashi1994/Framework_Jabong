@@ -5,7 +5,14 @@ import logging
 #from com.generic_lib.listener import *
 
 
+
 class Script01_SignIn(Initilization):
+
+        # test_method_name = self._testMethodName
+
+        # pjsdriver = webdriver.PhantomJS("phantomjs")
+        # self.driver = EventFiringWebDriver(pjsdriver, ScreenshotListener(test_method_name))
+
 
     testCaseId = "TestCase_01"
     sheetName = "SignInData"
@@ -49,6 +56,6 @@ class Script01_SignIn(Initilization):
             logging.info(testCaseId + "=" + "Fail")
             raise AssertionError
 
-
 # if __name__ == "__main__":
 #     unittest.main()
+
