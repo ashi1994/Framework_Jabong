@@ -1,4 +1,4 @@
-from com.scripts.script_02 import *
+from com.scripts.script_01 import *
 import HTMLTestRunner
 
 
@@ -7,9 +7,9 @@ class Suite(unittest.TestCase):
 
     def test_main(self):
         logging.info('Inside test suite')
-        self.suite = unittest.TestSuite([unittest.defaultTestLoader.loadTestsFromTestCase(SignIn)])
+        self.suite = unittest.defaultTestLoader.loadTestsFromTestCase(Script01_SignIn)
 
-        outfile = open("D:\CBT_Automation\Python\Workspace_Python_2\Framework_Jabong\Report\HTML_Report\TestReport.html", "w")
+        outfile = open(Initilization.path+"Report\HTML_Report\TestReport.html", "w")
         runner = HTMLTestRunner.HTMLTestRunner(stream = outfile, title = 'Execution Report', description = 'Suite_02 Run')
         runner.run(self.suite)
 

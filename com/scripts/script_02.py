@@ -1,41 +1,29 @@
 from com.generic_lib.initilization import *
 from com.POM.methods.home_method import *
-from com.POM.methods.sign_in_method import *
-import logging
-from com.generic_lib.listener import *
+from com.POM.methods.sports_method import *
+from selenium.common.exceptions import *
+import traceback
 
-class SignIn(Initilization):
+class Script02_Sports(Initilization):
+    testCaseId = "TestCase_02"
 
-    testCaseId = "SignIn_01"
-    sheetName = "SignInData"
-
-    def test_sign_in(self):
+    def test_02_buy_jersey(self):
+        global testCaseId
+        test_method_name = self._testMethodName
         try:
-            #test_method_name = self._testMethodName
-
-            #**********Instiantiation can not be done here********
-
-            # pjsdriver = webdriver.PhantomJS("phantomjs")
-            # d = EventFiringWebDriver(pjsdriver, ScreenshotListener(test_method_name))
-
             home_page = HomePage(self.driver)
-            sign_in_page = SignInPage(self.driver)
+            sport = Sport(self.driver)
+            logging.info('Now in Sport Script')
 
-            home_page.navigate_signin_page()
-            sign_in_page.enter_email_id(self.testCaseId, self.sheetName)
-            sign_in_page.enterPassword(self.testCaseId, self.sheetName)
-            sign_in_page.clickSignInBtn()
-            sign_in_page.verifyErrorMsg()
-            sign_in_page.clickCancelBtn()
-            logging.info("Inside SignIn script.")
+            home_page.navigate_sports()
+            sport.buy_jerseys()
+            logging.info(testCaseId + "=" + "Pass")
 
-        except AssertionError:
-            test_method_name = self._testMethodName
-            logging.error('Exception raised in method - '+ test_method_name)
+        except WebDriverException:
+            logging.error('Exception raised in method - ' + test_method_name)
             now = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
             self.driver.save_screenshot(
                 Initilization.path + "Report\Screenshots\\" + test_method_name + "-" + now + ".png")
-            traceback._some_str("there is some exception.")
-
-# if __name__ == "__main__":
-#     unittest.main()
+            traceback.print_exc()
+            logging.info(testCaseId + "=" + "Fail")
+            raise WebDriverException

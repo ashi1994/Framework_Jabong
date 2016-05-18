@@ -1,24 +1,17 @@
+from com.scripts.script_03 import *
 from com.scripts.script_02 import *
+from com.scripts.script_01 import *
+import unittest
 import HTMLTestRunner
 
-
 class Suite(unittest.TestCase):
-    """HTML Report is working in Python 2, not in Python 3."""
 
     def test_main(self):
         logging.info('Inside test suite')
-        self.suite = unittest.TestSuite([unittest.defaultTestLoader.loadTestsFromTestCase(SignIn)])
+        self.suite = unittest.TestSuite([unittest.defaultTestLoader.loadTestsFromTestCase(Script01_SignIn),
+                                         unittest.defaultTestLoader.loadTestsFromTestCase(Script02_Sports),
+                                         unittest.defaultTestLoader.loadTestsFromTestCase(Script03_Men)])
 
-        #unittest.TextTestRunner(verbosity=2).run(self.suite)
-
-        outfile = open("D:\CBT_Automation\Python\Workspace_Python_2\Framework_Jabong\Report\HTML_Report\TestReport.html", "w")
-        runner = HTMLTestRunner.HTMLTestRunner(
-            stream = outfile,
-            title = 'Execution Report',
-            description = 'Suite Run'
-        )
+        outputfile = open(Initilization.path+"Report\HTML_Report\TestReport"+"-" + Initilization.now + ".html", "w")
+        runner = HTMLTestRunner.HTMLTestRunner(stream=outputfile, verbosity=2,title='Execution Report',description='Suite Run')
         runner.run(self.suite)
-
-# import unittest
-# if __name__=="__main__":
-#     HTMLTestRunner.main

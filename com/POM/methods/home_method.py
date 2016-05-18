@@ -29,3 +29,7 @@ class HomePage(BasePage):
     def navigate_quick_list_page(self):
         element = self.driver.find_element(*HomeLoc.LIKE_LINK)
         element.click()
+
+    def navigate_brands_page(self):
+        element = self.driver.find_element(*HomeLoc.BRANDS_SECTION)
+        element.click()

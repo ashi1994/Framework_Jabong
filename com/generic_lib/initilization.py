@@ -10,9 +10,13 @@ import os
 class Initilization(unittest.TestCase):
     dir = os.path.dirname(__file__)
     path = dir[:len(dir)-15]
-    logging.basicConfig(level=logging.INFO,filename = path+"Report\Logs\Test.log")
+    now = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    log_path = path+"Report\Logs\Test"+"-" + now + ".log"
+    logging.basicConfig(level=logging.INFO,filename = log_path)
 
     def setUp(self):
+        global path
+
         if Config.Browser.lower() == 'Firefox'.lower():
             self.driver = webdriver.Firefox()
             logging.info('Firefox browser launched.')
@@ -30,11 +34,13 @@ class Initilization(unittest.TestCase):
         logging.info('Jabong Application Launched.')
         self.driver.maximize_window()
         time.sleep(3)
-        self.driver.implicitly_wait(20)
+        self.driver.implicitly_wait(5)
+
 
     def tearDown(self):
         logging.info("Inside TearDown Method.")
         self.driver.quit()
+
 
 # if __name__ == "__main__":
 #     unittest.main()
